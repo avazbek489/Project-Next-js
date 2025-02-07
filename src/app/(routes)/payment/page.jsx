@@ -9,6 +9,7 @@ function Page() {
   }
   return (
     <>
+    <h1 className="text-center font-bold font-serif mb-2 mt-2 text-4xl">Payment Guide</h1>
       <div className="flex container mb-5 mt-5 mx-auto flex-wrap items-center gap-5 justify-center w-[1000px]">
         {
           data.length > 0 && data.map((value, index) => {
